@@ -2,7 +2,7 @@
 tree -P '*.*' --noreport
 ```
 
-.
+```bash
 ├── Graph Convolutional Label Noise Cleaner- Train a Plug-and-play Action Classifier for Anomaly Detection.pdf
 ├── README.md
 ├── ShanghaiTech_new_split
@@ -60,6 +60,7 @@ tree -P '*.*' --noreport
     ├── ucf_crime_train.pkl
     ├── utils.py
     └── visualize_c3d_prediction.py
+    ```
 
 # GCN-Anomaly-Detection
 
