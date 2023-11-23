@@ -69,5 +69,7 @@ class Mat2info(object):
 
 
 if __name__ == "__main__":
-    print Mat2info().get_fps_from_video("video_validation_0000304.mpeg")
-    print Mat2info("../matlab/test_set_final.mat").get_fps_from_video("video_test_0000304")
+    # print Mat2info().get_fps_from_video("video_validation_0000304.mpeg")
+    print(Mat2info().get_fps_from_video("video_validation_0000304.mpeg"))
+    # print Mat2info("../matlab/test_set_final.mat").get_fps_from_video("video_test_0000304")
+    print(Mat2info("../matlab/test_set_final.mat").get_fps_from_video("video_test_0000304"))
